@@ -1,4 +1,4 @@
-# ALKANZA - Desbalance en Distancia
+# ALKANZA - Desbalance de Distancia
 
 ![Screenshot](http://alkanza.miguel.com.co/images/screenshot.png)
 
