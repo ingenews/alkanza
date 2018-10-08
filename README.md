@@ -1,5 +1,7 @@
 # ALKANZA - Desbalance en Distancia
 
+![Screenshot](http://alkanza.miguel.com.co/images/screenshot.png)
+
 Esta WEB permite administrar Centros Médicos y calcular el mímino índice de desbalance de distancia en tiempo real a través del mapa.
 
 También permite guardar los resultados para consultas posteriores.
