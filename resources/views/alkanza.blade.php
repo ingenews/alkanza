@@ -96,7 +96,13 @@
         }
     }
 
+
+
    function cargaCentros(){
+        clearAll();
+        balanceos=[];
+        desbalanceados=[];
+        balanceados=[];
         $.getJSON( "/centros?oper=select", function( data ) {
           var li="";
           var img="";
@@ -110,7 +116,14 @@
 
               });
          $(".centros").html(li);
+         cir();
         });
+   }
+
+   function clearAll(){
+        for (var i=0;i<marker.length;i++)
+            map.removeLayer(marker[i]);
+        marker=[];
    }
 
    function cargaCalculos(){
@@ -130,6 +143,7 @@
               cache: false
             }).done(function( html ) {
                 $("#li"+id_centro).fadeOut();
+                cargaCentros();
             });
     }
 
