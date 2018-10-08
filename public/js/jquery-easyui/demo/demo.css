@@ -1,0 +1,72 @@
+
+#norte {
+    height:60px !important;
+    padding:10px
+}
+
+h1 {
+    font-size: 20px;
+}
+
+#sur{
+    height:50px !important;background:#A9FACD;padding:10px;
+}
+
+body {
+    font-family:verdana,helvetica,arial,sans-serif;
+    padding:20px;
+    font-size:12px;
+    margin:0;
+}
+h2 {
+    font-size:18px;
+    font-weight:bold;
+    margin:0;
+    margin-bottom:15px;
+}
+.demo-info{
+	padding:0 0 12px 0;
+}
+.demo-tip{
+	display:none;
+}
+.label-top{
+    display: block;
+    height: 22px;
+    line-height: 22px;
+    vertical-align: middle;
+}
+
+#map {
+   width: 100%;
+   height: 100%;
+   background-color: grey;
+ }
+
+.centros, .calculos {
+    padding:0px;
+    margin: 0px;
+}
+
+.centros li, .calculos li {
+    list-style: none;
+    border-bottom: 1px #dcdcdc solid;
+    padding: 10px;
+}
+
+.centros li a, .calculos li a {
+    float: right;
+    margin-left: 4px;
+}
+
+.tblDat p {
+    padding:5px;
+}
+
+.tblDat p span {
+    font-weight: bold;
+}
+
+h1 {
+    float: right;
+}
